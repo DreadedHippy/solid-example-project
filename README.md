@@ -1,3 +1,18 @@
+# Solid JS Example project
+Simple e-commerce project made with solid-js and tailwind CSS
+
+## Running the project
+### Prerequisites
+- You must have [json-server](https://www.npmjs.com/package/json-server) installed globally
+
+### Instructions
+- Clone the git repo
+- Navigate to the cloned directory
+- In the terminal run `npm i` to install all required dependencies
+- Run `npm run dev` to start the dev server on http://localhost:3000
+- Run `json-server -w -p 4000 ./data/db.json` to run the fake JSON Rest API on port 4000
+- Enjoy 💫
+
 ## Usage
 
 Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
